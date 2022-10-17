@@ -1,0 +1,26 @@
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../images/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.mail {
+  flex: 1;
+  margin-top: 7rem;
+}
+.f-socialmedia {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .mail {
+    margin-top: 5rem;
+  }
+}
